@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin-ext");
+/* line 2, sass/style.css */ body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; }
+
+/* line 7, sass/style.css */ .contactForm { display: flex; flex-wrap: wrap; padding: 20px; margin: 0 auto; }
+
+@media (min-width: 1200px) { /* line 13, sass/style.css */ .contactForm { flex-direction: column; justify-content: center; max-width: 610px; } }
+
+/* line 17, sass/style.css */ .contactForm__item { margin-bottom: 10px; }
+
+/* line 20, sass/style.css */ .contactsList { width: 200px; margin: 0 auto 20px; }
+
+/*# sourceMappingURL=style.css.map */
