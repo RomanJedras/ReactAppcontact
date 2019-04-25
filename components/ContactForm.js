@@ -5,31 +5,20 @@ const ContactForm = React.createClass({
 	
 	render: function() {
 		return (
-			React.createElement('form', {className: 'contactForm'},
-				React.createElement('div',{className: 'row contactForm__item'},
-					React.createElement('div',{className: 'col'},
-						React.createElement('input', {
-					type: 'text',
-					placeholder: 'Imię',
-					value: this.props.contact.firstName,
-					className: 'form-control',
-				})),
-					React.createElement('div',{className: 'col'},
-					React.createElement('input', {
-					type: 'text',
-					placeholder: 'Nazwisko',
-					value: this.props.contact.lastName,
-					className: 'form-control',
-				}))),
-				React.createElement('div',{className: 'form-group contactForm__item'},
-				React.createElement('input', {
-					type: 'email',
-					placeholder: 'Email',
-					value: this.props.contact.email,
-					className: 'form-control email',
-				})),
-				React.createElement('button', {type: 'submit', className: 'btn btn-primary'}, "Dodaj kontakt")
-			)
+			<form className = {'contactForm'} >
+				<div className={'row contactForm__item'}>
+					<div className={'col'}>
+						<input type = 'text'  placeholder = 'Imię'  value = { this.props.contact.firstName } className = {'form-control'} />
+					</div>
+					<div className={'col'}>
+						<input type = 'text'  placeholder = 'Nazwisko'  value = { this.props.contact.lastName } className = {'form-control'} />
+					</div>
+				</div>
+				<div className={'form-group contactForm__item'}>
+						<input type = 'email'  placeholder = 'Email'  value = { this.props.contact.email } className = {'form-control'} />
+				</div>
+				<button className= {'btn btn-primary'}  type = {'submit'}> Dodaj kontakt < /button>
+			</form>
 		)
 	},
 });

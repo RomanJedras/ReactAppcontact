@@ -9,4 +9,6 @@
 
 /* line 20, sass/style.css */ .contactsList { width: 200px; margin: 0 auto 20px; }
 
+/* line 23, sass/style.css */ .contactsList--active { text-decoration: underline; padding-bottom: 20px; margin-bottom: 5px; color: blue; }
+
 /*# sourceMappingURL=style.css.map */

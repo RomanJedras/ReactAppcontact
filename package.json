@@ -24,6 +24,7 @@
   "homepage": "https://github.com/RomanJedras/ReactAppcontact.git#readme",
   "dependencies": {
     "all": "0.0.0",
+    "babel-standalone": "^6.26.0",
     "browser": "^0.2.6",
     "browserlist": "^1.0.1",
     "browserslist": "^4.5.5",
